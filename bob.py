@@ -81,7 +81,24 @@ for i in range( 45):
     bob.left(2)
 
 bob.penup()
-bob.goto(200,200)
+bob.goto(175,150)
+bob.pendown()
+for i in range(30):
+    bob.forward(70)
+    bob.right(55)
+    bob.color("#800000")
+    bob.forward(57)
+    bob.right(45)
+    bob.backward(46)
+    bob.color("#203080")
+    bob.left(1.5)
+    bob.forward(30)
+    bob.left(170)
+    bob.forward(45)
+    bob.color("gold")
+    bob.left(7)
+    bob.backward(40)
+
 
     
 wn.exitonclick()
